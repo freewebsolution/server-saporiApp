@@ -1,0 +1,7 @@
+GET http://localhost:3700/categories HTTP/1.1
+
+GET http://localhost:3700/products HTTP/1.1
+
+GET http://localhost:3700/suppliers HTTP/1.1
+
+GET http://localhost:3700/categories/1 HTTP/1.1

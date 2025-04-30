@@ -1,0 +1,148 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "name": "Pasticceria",
+      "description": "Dolci, torte e pasticcini freschi"
+    },
+    {
+      "id": 2,
+      "name": "Bevande",
+      "description": "Bibite, vini e liquori italiani"
+    },
+    {
+      "id": 3,
+      "name": "Salumi e Formaggi",
+      "description": "Salumi tipici e formaggi DOP"
+    },
+    {
+      "id": 4,
+      "name": "Pesce",
+      "description": "Pesce fresco e prodotti ittici"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "supplierId": 1,
+      "categoryId": 1,
+      "quantityPerUnit": "6 torte da 500g",
+      "unitPrice": 30,
+      "unitsInStock": 50,
+      "discontinued": false,
+      "name": "Tiramisù Artigianale"
+    },
+    {
+      "id": 2,
+      "supplierId": 2,
+      "categoryId": 2,
+      "quantityPerUnit": "12 bottiglie x 750ml",
+      "unitPrice": 90,
+      "unitsInStock": 120,
+      "discontinued": false,
+      "name": "Chianti Classico DOCG"
+    },
+    {
+      "id": 3,
+      "supplierId": 3,
+      "categoryId": 3,
+      "quantityPerUnit": "10 confezioni x 200g",
+      "unitPrice": 40,
+      "unitsInStock": 80,
+      "discontinued": false,
+      "name": "Prosciutto Crudo di Parma"
+    },
+    {
+      "id": 4,
+      "supplierId": 4,
+      "categoryId": 3,
+      "quantityPerUnit": "8 forme da 1kg",
+      "unitPrice": 120,
+      "unitsInStock": 35,
+      "discontinued": false,
+      "name": "Parmigiano Reggiano 24 mesi"
+    },
+    {
+      "id": 5,
+      "supplierId": 5,
+      "categoryId": 4,
+      "quantityPerUnit": "6 casse x 2kg",
+      "unitPrice": 200,
+      "unitsInStock": 15,
+      "discontinued": true,
+      "name": "Branzino Fresco del Mediterraneo"
+    }
+  ],
+  "suppliers": [
+    {
+      "id": 1,
+      "companyName": "Dolci Tentazioni",
+      "contactName": "Marco Bianchi",
+      "contactTitle": "Maestro Pasticcere",
+      "address": {
+        "street": "Via Roma 25",
+        "city": "Milano",
+        "region": "Lombardia",
+        "postalCode": "20121",
+        "country": "Italia",
+        "phone": "+39 02 1234567"
+      }
+    },
+    {
+      "id": 2,
+      "companyName": "Cantine Toscane",
+      "contactName": "Luca Rossi",
+      "contactTitle": "Responsabile Vendite",
+      "address": {
+        "street": "Via Chiantigiana 12",
+        "city": "Firenze",
+        "region": "Toscana",
+        "postalCode": "50125",
+        "country": "Italia",
+        "phone": "+39 055 2345678"
+      }
+    },
+    {
+      "id": 3,
+      "companyName": "Salumi del Borgo",
+      "contactName": "Giovanni Verdi",
+      "contactTitle": "Direttore Commerciale",
+      "address": {
+        "street": "Piazza Garibaldi 8",
+        "city": "Parma",
+        "region": "Emilia-Romagna",
+        "postalCode": "43121",
+        "country": "Italia",
+        "phone": "+39 0521 987654"
+      }
+    },
+    {
+      "id": 4,
+      "companyName": "Caseificio La Tradizione",
+      "contactName": "Francesca Neri",
+      "contactTitle": "Responsabile Produzione",
+      "address": {
+        "street": "Via delle Vigne 14",
+        "city": "Reggio Emilia",
+        "region": "Emilia-Romagna",
+        "postalCode": "42121",
+        "country": "Italia",
+        "phone": "+39 0522 456789"
+      }
+    },
+    {
+      "id": 5,
+      "companyName": "Pescheria Mare Blu",
+      "contactName": "Alessandro Moretti",
+      "contactTitle": "Direttore Acquisti",
+      "address": {
+        "street": "Lungomare Colombo 45",
+        "city": "Genova",
+        "region": "Liguria",
+        "postalCode": "16100",
+        "country": "Italia",
+        "phone": "+39 010 6543210"
+      }
+    }
+  ]
+}
