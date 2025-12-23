@@ -19,6 +19,11 @@
       "id": 4,
       "name": "Pesce",
       "description": "Pesce fresco e prodotti ittici"
+    },
+    {
+      "id": 5,
+      "name": "Panetteria",
+      "description": "Pane,baguette,grissini, panini"
     }
   ],
   "products": [
